@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bandit_markdown"
+version = "0.1.0"
+description = ""
+authors = ["baniasbaabe <72874670+baniasbaabe@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bandit = "^1.7.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+bandit-markdown = 'bandit_markdown.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
