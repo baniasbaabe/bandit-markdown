@@ -2,7 +2,24 @@
 name = "bandit_markdown"
 version = "0.1.0"
 description = ""
-authors = ["baniasbaabe <72874670+baniasbaabe@users.noreply.github.com>"]
+authors = ["baniasbaabe <banias@hotmail.de>"]
+repository = "https://github.com/baniasbaabe/bandit-markdown"
+homepage = "https://github.com/baniasbaabe/bandit-markdown"
+license = "MIT"
+readme = "README.md"
+keywords = ["bandit", "markdown", "security"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Security",
+]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
